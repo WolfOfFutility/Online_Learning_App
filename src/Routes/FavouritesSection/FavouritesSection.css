@@ -1,0 +1,21 @@
+.fave-section-cont {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fave-title-section {
+    height: 10vh;
+    width: 100%;
+    background: dodgerblue;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2.5vw;
+    margin-top: 10vh;
+    line-height: 10vh;
+    font-size: 40px;
+}

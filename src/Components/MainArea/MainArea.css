@@ -1,0 +1,15 @@
+.main-area-cont {
+    background: #333;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-area {
+    /* background: lightblue; */
+    height: 100vh;
+    width: 95vw;
+    overflow-y: auto;
+}

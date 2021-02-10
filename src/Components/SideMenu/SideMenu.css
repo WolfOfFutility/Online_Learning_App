@@ -1,0 +1,42 @@
+.side-menu-cont {
+    background: #121212;
+    height: 100vh;
+    width: 7vw;
+    position: relative;
+    z-indeX: 300;
+    border-right: 1px solid #fff;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.side-menu-spacer {
+    height: 10vh;
+    width: 100%;
+    /* background: rgb(0,0,0,0.2); */
+}
+
+.side-menu-button {
+    height: 10vh;
+    width: 100%;
+    /* background: lightcoral; */
+    line-height: 10vh;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2.5vw;
+    text-decoration: none;
+    /* background: lightblue; */
+}
+
+.side-menu-button:hover {
+    color: dodgerblue;
+}
+
+/* .menu-icons {
+    position: relative;
+    top: 5px;
+} */
+

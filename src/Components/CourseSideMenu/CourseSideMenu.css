@@ -1,0 +1,32 @@
+.course-side-menu-cont {
+    height: 100%;
+    width: 20%;
+    background: #222;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.course-side-menu-button {
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+    color: black;
+    line-height: 6vh;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+    text-align: left;
+    text-indent: 15px;
+}
+
+.course-side-menu-button:hover {
+    background: dodgerblue;
+}
+
+.icons {
+    position: relative;
+    top: 6px;
+    right: 5px;
+}

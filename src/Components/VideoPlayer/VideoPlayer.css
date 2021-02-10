@@ -1,0 +1,10 @@
+.video-player-cont {
+    height: 100%;
+    width: 80%;
+    background: white;
+}
+
+.main-video {
+    height: 100%;
+    width: 100%;
+}

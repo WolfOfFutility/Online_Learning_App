@@ -1,0 +1,48 @@
+.home-cont {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* background: lightblue; */
+}
+
+.title-area {
+    height: 30vh;
+    width: 100%;
+    text-align: left;
+    text-indent: 2.5vw;
+    color: white;
+    margin-top: 5vh;
+    font-size: 200%;
+    /* background: #333; */
+}
+
+.title-area h4 {
+    color: dodgerblue;
+}
+
+.showcase-videos-section {
+    height: 40vh;
+    width: 100% - 2.5vw;
+    /* background: lightgreen; */
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    display:flex;
+    flex-direction: row;
+}
+
+.showcase-video {
+    height: auto;
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+    background: white;
+    border: 3px solid dodgerblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.showcase-video:hover {
+    background: rgb(0,0,0,0.5);
+}

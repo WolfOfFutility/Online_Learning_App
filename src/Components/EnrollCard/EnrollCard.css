@@ -1,0 +1,85 @@
+.enroll-card-cont {
+    width: 30%;
+    height: 40vh;
+    background: white;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+}
+
+.enroll-card-cont:hover {
+    background: #222;
+    color: white;
+}
+
+.indiv-course-title {
+    height: 8vh;
+    width: 100%;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 8vh;
+    font-size: 15px;
+    font-weight: bold;
+    background: #3AB7FF;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.indiv-course-title-text {
+    order: 1;
+    width: 80%;
+    height: 100%;
+}
+
+.indiv-course-title-fave {
+    order: 2;
+    width: 20%;
+    height: 100%;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.fave-icon {
+    position: relative;
+    color: white;
+    margin: 20%;
+}
+
+.fave-icon:hover {
+    color: midnightblue;
+}
+
+.indiv-course-thumb {
+    height: 16vh;
+    width: 100%;
+    background-color: #222;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.indiv-course-desc {
+    height: 8vh;
+    width: 100%;
+    text-align: left;
+}
+
+.indiv-course-desc p {
+    margin: 10px;
+}
+
+.price-enroll-section {
+    height: 8vh;
+    width: 100%;
+    line-height: 6vh;
+    position: relative;
+}

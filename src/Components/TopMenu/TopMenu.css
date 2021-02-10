@@ -1,0 +1,36 @@
+.top-menu-cont {
+    height: 1vh;
+    width: 100vw;
+    /* background: lightblue; */
+    position: absolute;
+    z-index: 300;
+}
+
+.account-button-area {
+    float: right;
+    height: 8vh;
+    width: 5vw;
+    background: #3AB7FF;
+    margin-right: 2.5vw;
+    /* line-height: 8vh;
+    font-size: 150%; */
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: -2px 2px 3px 1px rgb(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.account-button-area:hover {
+    height: 40vh;
+}
+
+.account-menu-icons {
+    /* background: lightgreen; */
+    width: 4vw !important;
+    height: 7vh !important;
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+}
